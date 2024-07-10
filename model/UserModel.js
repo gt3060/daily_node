@@ -3,7 +3,7 @@ const { Schema, model } = require("mongoose");
 //创建Schema实例对象，参数为字段名：字段值类型组成的对象
 
 const menusSchema = new Schema({
-  _id: Schema.Types.ObjectId,
+  id: String,
   name: String,
   role: String,
   pwd: String
